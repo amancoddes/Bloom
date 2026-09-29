@@ -24,4 +24,5 @@ dependencyResolutionManagement {
 
 rootProject.name = "Bloom"
 include(":app")
- 
+include(":features_goals")
+include(":core_database")
