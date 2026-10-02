@@ -45,7 +45,7 @@ dependencies {
     androidTestImplementation(libs.androidx.espresso.core)
 
 
-
+    implementation(project(":core_database"))
     // hilt
     implementation(libs.hilt.android)
     ksp(libs.hilt.compiler)
