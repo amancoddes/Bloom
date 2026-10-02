@@ -6,7 +6,7 @@ import androidx.room.TypeConverters
 import com.example.core_database.entity.GoalEntity
 import com.example.core_database.dao.GoalDao
 
-
+//room configuration
 @Database(entities = [GoalEntity::class], version = 1)
 @TypeConverters(GoalEntity::class)
 abstract class BloomDatabase : RoomDatabase() {

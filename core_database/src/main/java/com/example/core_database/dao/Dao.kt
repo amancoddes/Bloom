@@ -9,7 +9,6 @@ import com.example.core_database.entity.GoalEntity
 @Dao
 interface GoalDao {
 
-
     @Insert
    suspend fun insert(user: GoalEntity): Long
 

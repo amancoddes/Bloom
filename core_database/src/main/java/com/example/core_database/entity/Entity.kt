@@ -6,7 +6,7 @@ import java.time.Instant
 import java.time.LocalDate
 
 
-@Entity(tableName = "goals_Table")// add indices
+@Entity(tableName = "goals_Table")
 data class GoalEntity(
 
     @PrimaryKey(autoGenerate = true)

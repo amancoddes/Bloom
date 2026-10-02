@@ -9,5 +9,4 @@ data class Goal (
     val description:String?=null,
     val createdAt: Instant,
     val deadLine : LocalDate?=null,
-
 )
