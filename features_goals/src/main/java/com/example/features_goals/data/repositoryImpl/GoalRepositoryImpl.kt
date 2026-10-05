@@ -16,5 +16,4 @@ class GoalRepositoryImpl @Inject constructor (private val goalDao: GoalDao): Goa
 }
 
 
-features_goals/build.gradle.kts \ gradle/libs.versions.toml
 
