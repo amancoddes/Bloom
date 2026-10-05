@@ -9,7 +9,12 @@ import javax.inject.Inject
 class GoalRepositoryImpl @Inject constructor (private val goalDao: GoalDao): GoalRepository {
 
     override suspend fun createGoal(goal: Goal):Long{
+
        return goalDao.insert(goal.toEntity())
     }
 
 }
+
+
+features_goals/build.gradle.kts \ gradle/libs.versions.toml
+

@@ -8,7 +8,7 @@ lifecycleRuntimeKtx = "2.6.1"
 activityCompose = "1.8.0"
 kotlin = "2.2.10"
 composeBom = "2026.02.01"
-
+desugar = "2.1.5"
 #hilt
 hilt = "2.59.2"
 
@@ -22,6 +22,8 @@ material = "1.10.0"
 
 # add functionallity to the app
 [libraries]
+
+desugaring = { module = "com.android.tools:desugar_jdk_libs", version.ref="desugar"}
 
 #hilt
 hilt-android = { module = "com.google.dagger:hilt-android", version.ref = "hilt" }
@@ -53,8 +55,6 @@ material = { group = "com.google.android.material", name = "material", version.r
 
 # and capability for gradle
 [plugins]
-
-
 hilt = { id = "com.google.dagger.hilt.android", version.ref = "hilt" }
 
 android-application = { id = "com.android.application", version.ref = "agp" }
